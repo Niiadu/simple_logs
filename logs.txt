@@ -1,0 +1,13 @@
+#! /bin/bash
+
+
+log_file="$HOME/logs.txt"
+#echo "$log_file"
+
+timestamp="$(date +"%Y-%m-%d %H:%M:%S")"
+#echo "$timestamp"
+
+entry_time="This log entry $log_file was generated at $timestamp"
+#echo "$entry_time"
+
+echo "This log entry was successful"
